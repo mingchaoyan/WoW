@@ -1,3 +1,11 @@
+-- strength = 10237
+-- stamina = 8138(6260+1878)
+-- armor = 0
+-- critical = 5%
+-- mastery = 12%(格挡4% 精确格挡12% 攻强 8%)
+-- dodge 3%
+-- block 22%
+-- parry 3%
 local equit = {
   head = { 
     ilevel = 880,
@@ -13,8 +21,8 @@ local equit = {
 
     stamina = 1831,
 
-    critical = 1527,
-    versatility = 797,
+    critical = 1928,
+    versatility = 1006,
   },
   shoulder = { 
     ilevel = 900,
@@ -41,15 +49,16 @@ local equit = {
   chest = { 
     ilevel = 940,
 
-    armor = 779,
-    strength = 2382,
-    stamina = 3573,
+    armor = 833,
+    strength = 3150,
+    stamina = 4726,
 
-    haste = 1103,
-    mastery = 612,
+    haste = 1234,
+    mastery = 685,
   },
   wrists = { 
     ilevel = 885, 
+
     armor = 323,
     stamina = 1592,
     strength = 1061,
@@ -87,27 +96,27 @@ local equit = {
     haste = 898,
     mastery = 635,
 
-    jaw_mastery = 375,
+    jaw_mastery = 150,
   },
   feet = { 
     ilevel = 875,
 
-    armor = 490,
-    stamina = 1846,
-    strength = 1231,
+    armor = 496,
+    stamina = 1934,
+    strength = 1289,
 
-    critical = 387,
-    versatility = 720,
+    critical = 394,
+    versatility = 733,
 
-    jaw_strength = 500,
+    jaw_strength = 200,
   },
   finger1 = { 
     ilevel = 890,
 
     stamina = 1668,
 
-    critical = 1535,
-    mastery = 703,
+    critical = 1893,
+    mastery = 867,
     
     ent_mastery = 200,
   },
@@ -116,8 +125,8 @@ local equit = {
 
     stamina = 1450,
 
-    haste = 1269,
-    versatility = 846,
+    haste = 1512,
+    versatility = 1008,
 
     ent_mastery = 200,
   },
