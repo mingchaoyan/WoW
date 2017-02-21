@@ -132,6 +132,15 @@ local equit = {
     strength = 1712,
   },
   main_hand = { 
+	  ilevel = 916,
+
+	  strength = 1079,
+	  stamina = 1619,
+
+	  critical = 382,
+	  mastery = 366,
+  },
+  off_hand = {
     ilevel = 916,
 
     armor = 1436,
@@ -141,7 +150,6 @@ local equit = {
     critical = 502,
     mastery = 482,
   },
---  off_hand = { ilevel = 750 },
 }
 
 local ilevel_sum = 0 
@@ -162,7 +170,7 @@ for k, v in pairs(equit) do
   versatility_sum  = versatility_sum + (v.versatility or 0)
   critical_sum = critical_sum + (v.critical or 0)
 end
-print("ilevel:", ilevel_sum/15)
+print("ilevel:", ilevel_sum/16)
 print("")
 
 print("armor_sum:", armor_sum)
